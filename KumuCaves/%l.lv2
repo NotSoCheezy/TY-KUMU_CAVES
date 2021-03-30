@@ -1,0 +1,471 @@
+// MapEd Data File version 2
+// Copyright Krome Studios
+// Saved by [DYO]   Date: 30/04/2002   Time: 4:02:59 PM
+//
+
+
+name setup
+
+WorldMinMax = -3229.524,-4.281,-2255.098,7187.127,2282.812,5596.568
+ground = room_b4_01.mdl
+collisionHeapSize = 1008640
+envcube = env_b4.mdl
+envrotate = 0.00
+fog = 0.40, 0.35, 0.75
+waterFog = 0.40, 0.35, 0.75
+maxDepth = 600.00
+fogPlane = 7000.00
+farPlane = 25000.00
+waterFogPlane = 5.00
+waterFarPlane = 3500.00
+bDisplayMist = 0
+music = level1.wav
+waterMaterial = fx_088
+causticMaterial = fx_089
+light = -1.00, 1.50, 1.30
+lod_1 = 0
+lod_2 = 1000
+lod_3 = 2000
+lod_4 = 3000
+lod_5 = 4000
+lod_6 = 5000
+lod_7 = 6000
+lod_8 = 7000
+overlay_0 = room_b4_02.mdl, 0, none
+overlay_1 = room_b4_03.mdl, 0, none
+
+name TY
+
+pos = -447, 464, 2248
+rot = 0.000, 0.569, 0.000
+effect = 0,none
+// User: KMW
+
+name DIALOG
+
+pos = -534, 0, 393
+ID = 1,TalkToJulius
+camera = camera
+  cameraSource = 415.681, 359.559, 676.505
+  cameraTarget = -43.490, 2.418, 233.088
+bUseEventCamera = 0,false
+heroPos = 0.000, 0.000, 0.000
+heroLookAt = 0.000, 0.000, 0.000
+bUseHeroPos = 0,false
+dialogNr = 1
+dialogNr2 = -1
+dialog2Nr = -1
+dialog2Nr2 = -1
+OnCompletion = event
+  TargetID = 0,none
+  Message = none
+bUseNewDialog = 1,true
+OnActivation = event
+  TargetID = 0,none
+  Message = none
+bLevelIntro = 0,false
+// User: DYO
+
+pos = 312, 4, 570
+ID = 2,FightShadow
+camera = camera
+  cameraSource = 411.882, 3.892, 669.951
+  cameraTarget = -188.118, 3.892, 69.951
+bUseEventCamera = 0,false
+heroPos = 0.000, 0.000, 0.000
+heroLookAt = 0.000, 0.000, 0.000
+bUseHeroPos = 0,false
+dialogNr = 2
+dialogNr2 = -1
+dialog2Nr = -1
+dialog2Nr2 = -1
+OnCompletion = event
+  TargetID = 0,none
+  Message = none
+bUseNewDialog = 1,true
+OnActivation = event
+  TargetID = 0,none
+  Message = none
+bLevelIntro = 0,false
+// User: DYO
+
+pos = 106, 1, 596
+ID = 3,HintOnDefeatingShadow
+camera = camera
+  cameraSource = 205.929, 0.707, 695.566
+  cameraTarget = -394.071, 0.707, 95.566
+bUseEventCamera = 0,false
+heroPos = 0.000, 0.000, 0.000
+heroLookAt = 0.000, 0.000, 0.000
+bUseHeroPos = 0,false
+dialogNr = 3
+dialogNr2 = -1
+dialog2Nr = -1
+dialog2Nr2 = -1
+OnCompletion = event
+  TargetID = 0,none
+  Message = none
+bUseNewDialog = 1,true
+OnActivation = event
+  TargetID = 0,none
+  Message = none
+bLevelIntro = 0,false
+// User: DYO
+
+pos = 129, 0, 760
+ID = 4,DefeatShadow
+camera = camera
+  cameraSource = 44.826, 0.000, 714.448
+  cameraTarget = -555.174, 0.000, 114.448
+bUseEventCamera = 0,false
+heroPos = 0.000, 0.000, 0.000
+heroLookAt = 0.000, 0.000, 0.000
+bUseHeroPos = 0,false
+dialogNr = -1
+dialogNr2 = -1
+dialog2Nr = -1
+dialog2Nr2 = -1
+OnCompletion = event
+  TargetID = 0,none
+  Message = none
+bUseNewDialog = 1,true
+OnActivation = event
+  TargetID = 0,none
+  Message = none
+bLevelIntro = 0,false
+// User: DYO
+
+name PORTAL
+
+pos = 1049, 327, 1484
+ID = 5,blank
+standPos = 0.000, 0.000, 0.000
+standYaw = 0.000
+connectingLevel = 9,b2
+bExitPortal = 1,true
+bVisible = 1,true
+// User: DYO
+
+pos = 48, 436, 2068
+ID = 6,blank
+standPos = 0.000, 0.000, 0.000
+standYaw = 0.000
+connectingLevel = 0,z1
+bExitPortal = 1,true
+bVisible = 1,true
+// User: DYO
+
+pos = 581, 416, 1976
+ID = 7,blank
+standPos = 0.000, 0.000, 0.000
+standYaw = 0.000
+connectingLevel = 8,b1
+bExitPortal = 1,true
+bVisible = 1,true
+// User: DYO
+
+pos = 1152, 297, 887
+ID = 8,blank
+standPos = 0.000, 0.000, 0.000
+standYaw = 0.000
+connectingLevel = 10,b3
+bExitPortal = 0,false
+bVisible = 1,true
+// User: DYO
+
+name OPALCOLLECTOR
+
+pos = -231, -4, 616
+ID = 9,blank
+rot = 0.000, 0.092, 0.000
+OnActivated = event
+  TargetID = 0,none
+  Message = none
+// User: DYO
+
+name FIREWORKS
+
+pos = -1149, 615, -1257
+rot = 0.043, 3.142, 0.008
+// User: ???
+
+pos = -2471, 1163, 105
+rot = -0.030, 2.239, -0.009
+// User: ???
+
+pos = 3192, 890, -1085
+rot = 0.030, 2.018, -0.062
+// User: ???
+
+pos = -1569, 440, 48
+rot = -0.034, 3.142, -0.064
+// User: ???
+
+name METALSPIKES
+
+pos = -2683, 1084, 1164
+rot = -0.203, -0.350, -0.018
+startOffset = 1
+upTime = 10
+downTime = 20
+// User: ???
+
+pos = 3243, 890, 637
+rot = 0.000, -2.652, -0.129
+startOffset = 1
+upTime = 10
+downTime = 20
+// User: ???
+
+pos = 2046, 749, 2062
+rot = 0.166, 3.683, -0.129
+startOffset = 1
+upTime = 10
+downTime = 20
+// User: ???
+
+name STATICSPIKES
+
+pos = -1490, 457, 448
+rot = -0.105, 0.000, 0.000
+// User: ???
+
+pos = -1581, 448, 563
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = -1709, 444, 672
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = -1830, 454, 762
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = -2982, 1164, 780
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = -2905, 1158, 682
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = -2772, 1164, 598
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = -2636, 1150, 726
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 3384, 885, -94
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 3701, 894, -251
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 3799, 897, -317
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 2660, 849, 1407
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 2699, 847, 1256
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 2553, 832, 1182
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 1219, 638, 2892
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 1072, 618, 2847
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 941, 605, 2763
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 848, 604, 2645
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 3596, 893, -186
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 3485, 890, -130
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+name TORCH1
+
+pos = -906, 402, 2041
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 684, -3, 571
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -167, -6, 918
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -725, -9, 36
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 1681, 285, -828
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -130, 553, -1352
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -1269, 598, -964
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 614, 596, 2621
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 2408, 813, 1214
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 3031, 873, -713
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -2492, 834, 2316
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -2278, 1160, 95
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -1969, 446, 496
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+name WHITEBAT
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+name SHADOWBAT
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: ???
+
+name JULIUS
+
+pos = 59, 2, 357
+rot = 0.000, 0.000, 0.000
+bVisible = 0,false
+// User: DYO
+
+[Zones]

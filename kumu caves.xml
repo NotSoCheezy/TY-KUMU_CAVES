@@ -1,0 +1,22 @@
+<root>
+	<tymod name="Kumu Caves Restored" version="1.0.0a" tyversion="" authors="NotSoCheezy" description="Shadow's home is finally restored to its former glory! Find the portal at the end of the path near Julius' lab.">
+		<!-- Add custom map from CustomMap0 directory. Path must be relative. -->
+		<level directory="KumuCaves/" name="Shadow's Grotto">
+			<!-- Name of map in each supported language -->
+			<translation>
+				<english>Shadow's Grotto</english>
+				<spanish>Gruta Shadow</spanish>
+				<german>Shadow Grotte</german>
+				<french>Shadow Grotte</french>
+				<italian>Grotta di Shadow</italian>
+			</translation>
+
+			<!-- Position of portal in Rainbow Cliffs -->
+			<portal>
+				<x>-5942</x>
+				<y>637</y>
+				<z>7141</z>
+			</portal>
+		</level>
+	</tymod>
+</root>
